@@ -1,0 +1,236 @@
+% @brief    LaTeX2e Resume for Kamil K Wojcicki
+\documentclass[margin,line]{resume}
+
+\usepackage{hyperref}
+\usepackage{microtype}
+
+% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+\providecommand*\email[1]{\href{mailto:#1}{#1}}
+% Same as above, but pretty-prints ADDRESS in teletype fixed-width font
+%\renewcommand*\email[1]{\href{mailto:#1}{\texttt{#1}}}
+
+\begin{document}
+\begin{tabular*}{7.15in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Dr. Boxun Zhang} & \texttt{+4915229402625} \\
+Sr. Data Scientist at SoundCloud & \texttt{zhangboxun@gmail.com} \\
+Ph.D. in Computer Science & \href{https://zhangboxun.github.io/}{\texttt{zhangboxun.github.io}} \\
+Based in Berlin, Germany & \href{https://www.quora.com/profile/Boxun-Zhang}{\texttt{Quora}} \\
+\end{tabular*}
+\\
+\begin{resume}
+
+\section{\mysidestyle Profile}
+
+I recently started working at SoundCloud as a senior data scientist. Previously, I worked
+as a data scientists at Spotify on various topics: machine learning, user behavior measurement,
+experimentation, and research collaboration. I obtained my PhD in Computer Science from Delft
+University of Technology, the Netherlands, where I studied user behavior in Peer-to-Peer file
+sharing systems.
+
+\section{\mysidestyle Professional \\Experience}
+\textbf{Senior Data Scientist} \hfill \textbf{May 2017 -- present} \vspace{0.75mm} \\%
+\textsl{SoundCloud, Germany} \vspace{1.5mm} \\
+\vspace{-4.5mm}\\
+Research and develop models, tools, and datasets that are used by other data scientists.
+
+\textbf{Data Scientist} \hfill \textbf{Mar. 2013 -- Feb. 2017} \vspace{0.75mm} \\%
+\textsl{Spotify, Sweden} \vspace{1.5mm} \\
+\vspace{-4.5mm}\\
+Worked in various areas, including:
+\begin{list2}
+    \item Modeled user retention with machine learning techniques
+    \item Measured and modeled user experience frictions in Spotify's mobile app
+    \item Develope machine learning approach that reveals the cause of effect
+        in A/B testing
+    \item Developed a machine learning model that can predict A/B testing result
+    \item Designed and developed the first user session dataset that was widely used
+        within Spotify
+    \item Built intra-session attribution model that associates streaming behavior
+    to other types of user behaviors
+    \item Built model that predicted the time it takes Spotify's Hadoop
+    cluster (2,000+ nodes) to run out of storage capacity.
+    \item Supported multiple product teams by designing and analyzing A/B tests
+\end{list2}
+
+\vspace{-2.5mm}\\
+
+(Co)supervised PhD and MSc students for research projects:
+\begin{list2}
+    \item S. Magureanu: \emph{Online Learning of Optimally Diverse Rankings} (PhD internship)
+    \item F. Michelinakis: \emph{Passive Mobile Bandwidth
+    Classification Using Short Lived TCP Connections} (PhD internship)
+    \item G. M{\"o}rtberg: \emph{Detection of Streaming Fraud} (MSc internship)
+    \item M. H{\aa}stad: \emph{Evaluating Different Sessionization Methods in
+    Music Streaming Context} (MSc thesis)
+    \item E. Aalto: \emph{Learning Playlist Representations for Automatic Playlist
+    Generation} (MSc thesis)
+    \item T. Vasiloudis: \emph{Extending Recommendation Algorithms by Modeling
+    User Context} (MSc thesis)
+\end{list2}
+
+\textbf{Research Intern} \hfill \textbf{Jan. 2012 -- May 2012} \vspace{0.75mm} \\%
+\textsl{Spotify, Stockholm, Sweden} \vspace{1.5mm} \\
+Investigated various aspects of user behavior in Spotify, such as arrival
+patterns of user sessions and usage patterns of users with multiple
+devices.
+
+\textbf{Software Engineer} \hfill \textbf{Feb. 2006 -- Apr. 2008} \vspace{0.75mm} \\%
+\textsl{International Air Transport Association, Beijing, China} \vspace{1.5mm} \\
+Designed and developed web services for internal systems.
+
+% Education
+\section{\mysidestyle Education}
+\textbf{Ph.D. in Computer Science} \hfill \textbf{May 2008 -- Jan. 2013} \vspace{0.75mm} \\%
+\textsl{Delft University of Technology, Delft, the Netherlands} \vspace{-2.5mm} \\
+\begin{list2}
+    \item Thesis: Understanding Operation and User Behavior in Peer-to-Peer Systems
+    \item Promotor: Prof.dr.ir. H.J. Sips
+    \item Supervisor: Dr.ir. J.A. Pouwelse
+\end{list2}
+\vspace{-3mm}
+I studied the system dynamics and user behaviors in Peer-to-Peer (P2P) systems
+like BitTorrent, through empirical analysis and statistical modeling.
+I was also one of the main contributors of
+\href{http://p2pta.ewi.tudelft.nl/}{\texttt{P2P Trace Archive}} ---
+one of the largest public data archives for P2P traces.
+
+\newpage
+
+\textbf{M.Sc. in Computer Science} \hfill \textbf{Aug. 2004 -- Feb. 2016} \vspace{0.75mm} \\%
+\textsl{Royal Institute of Technology, Stockholm, Sweden} \vspace{-2.5mm} \\
+\begin{list2}
+    \item Thesis: Implementation of Agora System (multi-agent systems)
+    \item Supervisor: Prof. Mihhail Matskin
+\end{list2}\vspace{-1.5mm}
+
+\textbf{B.Sc. in Computer Science} \hfill \textbf{Sept. 2000 -- Jun. 2004} \vspace{0.75mm} \\%
+\textsl{Royal Institute of Technology, Stockholm, Sweden} \vspace{-2.5mm} \\
+\begin{list2}
+    \item Thesis: Device Driver Development for Embedded Linux
+    \item Supervisor: Dr. Zhongmei Ma
+\end{list2}\vspace{-1.5mm}
+
+\section{\mysidestyle Talks}
+\href{http://www.slideshare.net/BoxunZhang/machine-learning-the-product}{\emph{Machine Learning the Product}}. Nordic Data Science Summit, 2016
+
+\vspace{-3mm}
+\href{https://www.kth.se/social/files/573d8d10f276545b25e543c9/guest_lecture_DD2476_2016_Boxun.pdf}{\emph{Introduction to Locality Sensitive Hashing}}.
+Guest lecture for Search Engines and Information Retrieval Systems, KTH, 2016
+
+\vspace{-3mm}
+\href{http://softwareengineeringdaily.com/2015/12/11/data-science-at-spotify-with-boxun-zhang/}{\emph{Data Science at Spotify with Boxun Zhang}}.
+Software Engineering Daily, 2015
+
+\vspace{-3mm}
+\href{http://linc.ucy.ac.cy/isocial/images/stories/Events/Crete_workshop/Speaker%20Slides/Speaker%20Slides/NOT%20FOR%20WEB%20music_recommendation_spotify.pdf}{\emph{Music Recommendation in Spotify}}.
+Online Social Networks: Data Management and Privacy/Security workshop, 2015
+
+\section{\mysidestyle Publications}
+Stefan Magureanu, Alexandre Proutiere, Marcus, Isaksson, \textbf{Boxun Zhang}.
+\textit{Online Learning of Optimally Diverse Rankings}. ACM SIGMETRICS, 2018 (accepted).
+
+Foivos Michelinakis, Gunnar Kreitz, Riccardo Petrocco, \textbf{Boxun Zhang}, and Joerg
+Widmer. \textit{Passive Mobile Bandwidth Classification Using Short Lived TCP
+Connections}. IFIP WMNC, 2015.
+
+\vspace{-2mm}
+\textbf{Boxun Zhang}, Gunnar Kreitz, Marcus Isaksson, Javier Ubillos, Guido
+Urdenata, Johan Pouwelse, and Dick Epema. \emph{Understanding User Behavior
+in Spotify}. IEEE INFOCOM, 2013.
+
+\vspace{-2mm}
+\textbf{Boxun Zhang}, Alexandru Iosup, Johan Pouwelse, and Dick Epema.
+\emph{Characterizing Flashcrowds in BitTorrent}. ICT.OPEN, 2012.
+\emph{Best paper award of ASCI track}
+
+\vspace{-2mm}
+\textbf{Boxun Zhang}, Alexandru Iosup, Johan Pouwelse, and Dick Epema.
+\emph{Identifying, Analyzing, and Modeling Flashcrowds in BitTorrent}. IEEE P2P Computing,
+2011.
+
+\vspace{-2mm}
+\textbf{Boxun Zhang}, Alexandru Iosup, Johan Pouwelse, and Dick Epema. \emph{The
+Peer-to-Peer Trace Archive: Design and Comparative Trace Analysis}. ACM CoNEXT
+Student Workshop, 2010.
+
+\vspace{-2mm}
+\textbf{Boxun Zhang}, Alexandru Iosup, Johan Pouwelse, and Dick Epema.
+\emph{Towards a Peer-to-Peer Trace Archive}. ASCI, 2010.
+
+\vspace{-2mm}
+\textbf{Boxun Zhang}, Alexandru Iosup, Johan Pouwelse, Dick Epema, and Henk
+Sips. \emph{Sampling Bias in BitTorrent Measurements}. Euro-Par, 2010.
+
+\vspace{-2mm}
+\textbf{Boxun Zhang}, Alexandru Iosup, Johan Pouwelse, and Pawel Garbacki.
+\textit{A Unified Format for Traces of Peer-to-Peer Systems}. LSAP, 2009.
+
+\vspace{-2mm}
+David Hales, Rameez Rahman, \textbf{Boxun Zhang}, Michel Meulpolder and Johan
+Pouwelse. \textit{BitTorrent or BitCrunch: Evidence of a credit squeeze in
+BitTorrent?}. COPS Workshop, 2009.
+
+\vspace{-2mm}
+Xuetao Niu, \textbf{Boxun Zhang}, and Mihhail Matskin. \textit{An Architecture
+and System for Support of Cooperation in Multi-Agent Software Development}. SERP,
+2007.
+
+
+%\section{\mysidestyle Technical Reports}
+%\textbf{Boxun Zhang}, Alexandru Iosup, Johan Pouwelse, and Dick Epema.
+%\emph{Identifying, Analyzing, and Modeling Flashcrowds in BitTorrent}. Technical
+%Report PDS-2010-009, Delft University of Technology.
+
+%\vspace{-2mm}
+%\textbf{Boxun Zhang}, Alexandru Iosup, and Dick Epema. \textit{The Peer-to-Peer
+%Trace Archive: Design and Comparative Trace Analysis}. Technical Report PDS-2010-003,
+%Delft University of Technology.
+
+%\vspace{-2mm}
+%\textbf{Boxun Zhang}, Alexandru Iosup, Johan Pouwelse, Dick Epema, and Henk Sips.
+%\textit{On Assessing Measurement Accuracy in BitTorrent Peer-to-Peer File-Sharing
+%Networks}. Technical Report PDS-2009-005, Delft University of Technology.
+
+\section{\mysidestyle Skills}
+\textbf{Programming}: Python, R, Scala, Java
+
+\vspace{-3mm}
+\textbf{Big data}: MapReduce, Spark, BigQuery, Hive, SQL
+
+\vspace{-3mm}
+\textbf{Data visualization}: ggplot2, Seaborn, Matplotlib, D3.js, Graphviz, Gnuplot
+
+
+\section{\mysidestyle Languages}
+English -- fluent/proficient in speaking, reading, and writing
+
+\vspace{-3mm}
+
+Chinese -- native speaker
+
+%\section{\mysidestyle References}
+%Available upon request
+
+%\begin{tabular}{@{}p{7cm}p{7cm}}
+%\textbf{Dr. Dick Epema} & \textbf{Dr. Alexandru Iosup} \\
+%Associate Professor & Assistant Professor \\
+%Parallel and Distributed Systems group, & Parallel and Distributed Systems group,\\
+%EEMCS, Delft University of Technology, & EEMCS, Delft University of Technology,\\
+%Mekelweg 4, 2628 CD, Delft, Netherlands & Mekelweg 4, 2628 CD, Delft, Netherlands\\
+%phone: \texttt{+31-15-2783853} & phone: \texttt{+31-15-2784433}\\
+%email: \texttt{D.H.J.Epema@.tudelft.nl} & email: \texttt{A.Iosup@tudelft.nl}    \\
+%\end{tabular}
+
+%\begin{tabular}{@{}p{7cm}p{7cm}}
+%\textbf{Dr. Johan Pouwelse} & \\
+%Assistant Professor & \\
+%Parallel and Distributed Systems group, & \\
+%EEMCS, Delft University of Technology, & \\
+%Mekelweg 4, 2628 CD, Delft, Netherlands & \\
+%phone: \texttt{+31-15-2782539} & \\
+%email: \texttt{peer2peer@gmail.com} & \\
+%\end{tabular}
+
+\end{resume}
+\end{document}
+
